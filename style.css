@@ -1,0 +1,109 @@
+body{
+    background-color: #f9bf45;
+    font-family: sans-serif;
+    margin: 15px;
+}
+/*NAVIGATON BAR*/
+.main_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between  ;
+    height: 20px;
+    padding: 5px;
+}
+
+.nav_items{
+    color: #000000;
+    font-family: Bold, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    height: 92px;
+    letter-spacing: .1em;
+    line-height: 92px;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+
+.left_nav_items{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 0 .5 auto;
+}
+
+.right_nav_items{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: .25 .25 auto;
+}
+
+#bold_line{
+    border-bottom: 2px solid #1c1c1c;
+    margin: 15px;
+}
+
+/*MAIN SECTION*/
+.home_intro{
+    width: auto;
+    height: 600px;
+    padding: 10px;
+    display:flex;
+    margin: 15px;
+    justify-content: flex-start;
+    background-color: white;
+}
+
+.info{
+    padding: 0 80px 0 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-grow: .1;
+}
+
+.simplistic{
+    font-size: 4vw;
+    max-height: 300px;
+
+    font-family: sans-serif;    
+    display: flex;
+    flex-direction: column;
+}
+
+.heading1{
+    font-size: 2vw;
+}
+
+.aboutmyself{
+    max-width: 700px;
+    font-size: 1vw;
+    font-weight:700;    
+    margin-right:10px;
+}
+
+.image{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: .9;
+}
+
+.photo{
+    max-width: 417px;
+    max-height: 423.6px;
+    border: 7.5px solid #f9bf45;
+}
+
+.platform{
+    display:flex;
+    flex-direction: row;
+    width: 400px;
+    margin: 15px;
+    justify-content: space-between;
+}
+
+.shrink{
+    max-width: 50px;
+}

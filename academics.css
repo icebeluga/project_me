@@ -1,0 +1,94 @@
+body{
+    background-color: #fcfaf2;
+    font-family: sans-serif;
+    margin: 15px;
+}
+/*NAVIGATON BAR*/
+.main_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between  ;
+    height: 20px;
+    padding: 5px;
+}
+
+.nav_items{
+    color: #000000;
+    font-family: Bold, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    height: 92px;
+    letter-spacing: .1em;
+    line-height: 92px;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+
+.left_nav_items{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 0 .5 auto;
+}
+
+.right_nav_items{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: .25 .25 auto;
+}
+
+#bold_line{
+    border-bottom: 2px solid #000000;
+    margin: 15px;
+}
+/*Main Section*/
+
+.school{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.image{
+    display: flex;
+    align-content: center;
+    margin-left: 15px;
+}
+
+#title{
+    font-size: 3vw;
+}
+
+#paragraph{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.info{
+    padding-left: 10px;
+    margin-right: 15px;
+}
+
+.THHS{
+    min-width: 250px;
+    padding-right: 10px;
+}
+
+.school_year{
+    margin: 0 15px 0 15px;
+}
+
+#freshmen_year{
+    margin-left: 15px;
+}
+
+.Courses{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+}
+
+#class{
+    font-size: 20px;
+}

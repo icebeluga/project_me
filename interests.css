@@ -1,0 +1,87 @@
+body{
+    background-color: #90b44b;
+    font-family: sans-serif;
+    margin: 15px;
+}
+/*NAVIGATON BAR*/
+.main_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between  ;
+    height: 20px;
+    padding: 5px;
+}
+
+.nav_items{
+    color: #000000;
+    font-family: Bold, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    height: 92px;
+    letter-spacing: .1em;
+    line-height: 92px;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+
+.left_nav_items{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 0 .5 auto;
+}
+
+.right_nav_items{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: .25 .25 auto;
+}
+
+#bold_line{
+    border-bottom: 2px solid #000000;
+    margin: 15px;
+}
+
+/*Main Section*/
+
+.section{
+    display: flex;
+    margin:15px;
+}
+
+.words{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 15px;
+}
+
+.CAD_img{
+    padding-right: 10px;
+}
+
+#title{
+    font-size: 3vw;
+}
+
+#paragraph{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.section2{
+    display: flex;
+    flex-direction: row;
+    margin:15px;
+}
+
+.exercise_img{
+    max-width: 300px;
+    padding-left: 10px;
+}
+
+.cooking_img{
+    padding-right: 10px;
+    max-width:300px;
+}
